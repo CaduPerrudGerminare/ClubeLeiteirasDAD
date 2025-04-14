@@ -6,9 +6,9 @@ O foco do clube é a leitura de obras cobradas pelos principais vestibulares do 
 
 
 ## Membros do grupo 👩🏻‍🦱👨🏽👩🏻
-- Carlos Eduardo Perrud
-- Yasmin Barbosa
-- Camilla Moreno 
+- Camilla Moreno de Almeida
+- Carlos Eduardo Perrud Sousa
+- Yasmin Barbosa Rodrigues Pinheiro
 
 
 ## 🛠️ Tecnologias Utilizadas
