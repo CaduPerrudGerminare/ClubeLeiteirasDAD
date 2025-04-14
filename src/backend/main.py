@@ -28,6 +28,10 @@ def get_db_connection():
        conn = psycopg2.connect(os.getenv("DATABASE_URL"))
        return conn
 
+@app.route("/")
+def home():
+    return {"status": "Backend Flask está funcionando 🐮🚀"}
+
 # ----------- LOGIN -----------
 @app.route('/login', methods=["POST"])
 def login():
