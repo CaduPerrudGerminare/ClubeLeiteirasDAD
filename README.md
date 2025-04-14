@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Clube Leiteiras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Apesar da proposta inicial do projeto ter sido um sistema de mercado, após alinhamento com o professor Alex, decidimos desenvolver uma solução realmente aplicável à nossa realidade. Assim nasceu o **Clube Leiteiras** — um sistema de gerenciamento para um clube de leitura formado por alunas do 2º ano da Germinare Tech.
 
-In the project directory, you can run:
+O foco do clube é a leitura de obras cobradas pelos principais vestibulares do Brasil (como Fuvest e Enem), e o sistema tem como objetivo facilitar o empréstimo de livros, a marcação de favoritos e a organização da leitura entre as participantes.
 
-### `npm start`
+## Membros do grupo 👩👨👩
+- Carlos Eduardo Perrud
+- Yasmin Barbosa
+- Camilla Moreno 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend**: Python, Flask, JavaScript 
+- **Frontend**: React, HTML, CSS, JavaScript 
+- **Banco de Dados**: PostgreSQL (com conexão segura via SSL) (Banco hospedado no aiven)
+- **Segurança**: Hash de senhas com `werkzeug.security`
+- **Integração Web**: CORS configurado para integração com frontend React
+- **Outros**: Logging com `logging`, tratamento de exceções globais
 
-### `npm test`
+## Como rodar o projeto 🌻
+- É indicado o uso do Visual Studio Code para rodar o projeto.
+- Rode o arquivo main.py
+- Abra um novo terminal e mantenha o projeto rodando, nesse novo terminal rode o comando "npm install".
+- Em seguida, rode o comando "npm start".
+- Uma janela irá se abrir com o projeto! Agora basta aproveitar dos nossos serviços.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Funcionalidades 📱
+- Visualizar livros;
+- Favoritar um livro;
+- Filtrar seus favoritos;
+- Realizar o emprestimo de um livro;
+- Visualizar frase e livro do dia;
+- Realizar cadastro e login;
+- Editar e visualizar carteirinha do clube.
