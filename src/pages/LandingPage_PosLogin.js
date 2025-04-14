@@ -159,7 +159,7 @@ const LandingPage_PosLogin = ({ capa }) => {
   });
 
   useEffect(() => {
-    fetch('https://clubeleiteirasdad.onrender.com/frase-do-dia')
+    fetch('http://localhost:5000/frase-do-dia')
       .then(res => res.json())
       .then(data => {
         setDadosLivro(data);

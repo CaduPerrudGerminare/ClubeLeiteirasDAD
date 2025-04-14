@@ -125,7 +125,7 @@ const Favoritados = () => {
     useEffect(() => {
       const telefoneEmail = sessionStorage.getItem("usuario");
       console.log("📱 Telefone ou email:", telefoneEmail);
-      fetch(`https://clubeleiteirasdad.onrender.com/todosFavoritos?telefoneemail=${telefoneEmail}`)
+      fetch(`http://localhost:5000/todosFavoritos?telefoneemail=${telefoneEmail}`)
         .then(res => res.json())
         .then(data => {
           console.log("📚 Dados recebidos:");
