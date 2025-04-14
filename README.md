@@ -36,3 +36,12 @@ O foco do clube é a leitura de obras cobradas pelos principais vestibulares do 
 - Visualizar frase e livro do dia;
 - Realizar cadastro e login;
 - Editar e visualizar carteirinha do clube.
+
+
+## Identidade Visual
+| Cores   | Nome             |
+|---------|------------------|
+| #AB3939 | Rosa Vermelhinho |
+| #EF7E6B | Rosa Blush       |
+| #FF9B8B | Rosa Pessêgo     |
+| #FAD9D1 | Rosa Clarinho    |
