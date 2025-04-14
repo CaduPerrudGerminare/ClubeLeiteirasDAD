@@ -241,7 +241,7 @@ const Perfil = () => {
   // Função para enviar as alterações para o backend
   const handleSubmitEdit = async () => {
     try {
-      const response = await fetch("http://localhost:5000/editarPerfil", {
+      const response = await fetch("https://clubeleiteirasdad-1.onrender.com/editarPerfil", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -284,7 +284,7 @@ const Perfil = () => {
         throw new Error("Usuário não autenticado");
       }
   
-      const response = await fetch("http://localhost:5000/preencherCarteirinha", {
+      const response = await fetch("https://clubeleiteirasdad-1.onrender.com/preencherCarteirinha", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
