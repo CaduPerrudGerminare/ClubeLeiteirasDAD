@@ -47,6 +47,8 @@ const useStyles = makeStyles({
       backgroundColor: "white",
     },
   },
+
+
   textoFrase: {
     marginLeft: "-50%",
     width: "90%",

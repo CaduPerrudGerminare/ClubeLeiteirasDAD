@@ -68,8 +68,8 @@ const useStyles = makeStyles({
       color: "white",
     }
   },
-
   box1: {
+    position: "relative",
     zIndex: -1,
     display: "flex",
     alignItems: "center",
@@ -88,10 +88,10 @@ const useStyles = makeStyles({
 
     "& h3": {
       zIndex: -1,
-      padding: "0 0.5%",
+      padding: "0 1%",
       position: "absolute",
-      bottom: "-157.8%",
-      left: "27%",
+      top: "-15%",
+      left: "5%",
       color: rosaVermelhinho,
       backgroundColor: "white",
     },
@@ -114,6 +114,7 @@ const useStyles = makeStyles({
   },
 
   box2: {
+    position: "relative",
     zIndex: -1,
     display: "flex",
     alignItems: "center",
@@ -122,12 +123,13 @@ const useStyles = makeStyles({
     padding: "1.5% 5%",
     width: "40%",
     border: `3px solid ${rosaVermelhinho}`,
+
     "& h3": {
       zIndex: -1,
-      padding: "0 0.5%",
+      padding: "0 1%",
       position: "absolute",
-      right: "27%",
-      bottom: "-204.8%",
+      right: "5%",
+      top: "-20%",
       color: rosaVermelhinho,
       backgroundColor: "white",
     },
