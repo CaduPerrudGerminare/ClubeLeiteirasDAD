@@ -161,7 +161,7 @@ const BookCard = ({ nomeLivro, capa, sinopse, nomeAutor, anoPublicacao, categori
         }
     
         try {
-            const response = await fetch('http://localhost:5000/verificarFavorito', {
+            const response = await fetch('https://clubeleiteirasdad-1.onrender.com/verificarFavorito', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -190,7 +190,7 @@ const BookCard = ({ nomeLivro, capa, sinopse, nomeAutor, anoPublicacao, categori
         }
 
         try {
-            const response = await fetch('http://localhost:5000/toggleFavorito', {
+            const response = await fetch('https://clubeleiteirasdad-1.onrender.com/toggleFavorito', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -209,7 +209,7 @@ const BookCard = ({ nomeLivro, capa, sinopse, nomeAutor, anoPublicacao, categori
 
     // Funções de empréstimo
     const realizarEmprestimo = async () => {
-        const response = await fetch('http://localhost:5000/realizarEmprestimo', {
+        const response = await fetch('https://clubeleiteirasdad-1.onrender.com/realizarEmprestimo', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ 
@@ -230,7 +230,7 @@ const BookCard = ({ nomeLivro, capa, sinopse, nomeAutor, anoPublicacao, categori
             const usuario = sessionStorage.getItem("usuario");
             if (!usuario) return;
 
-            const response = await fetch('http://localhost:5000/verificarDisponibilidade', {
+            const response = await fetch('https://clubeleiteirasdad-1.onrender.com/verificarDisponibilidade', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -259,7 +259,7 @@ const BookCard = ({ nomeLivro, capa, sinopse, nomeAutor, anoPublicacao, categori
                 throw new Error("Usuário não logado");
             }
 
-            const response = await fetch('http://localhost:5000/devolverEmprestimo', {
+            const response = await fetch('https://clubeleiteirasdad-1.onrender.com/devolverEmprestimo', {
                 method: 'POST',
                 headers: { 
                     'Content-Type': 'application/json',

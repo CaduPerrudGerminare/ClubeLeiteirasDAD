@@ -82,13 +82,13 @@ const CarrouselBooks = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/livros?telefoneemail=${telefoneEmail}`)            
+        fetch(`https://clubeleiteirasdad-1.onrender.com/livros?telefoneemail=${telefoneEmail}`)            
             .then((res) => res.json())
             .then((data) => setLivros(data))
             .catch((error) => console.error("Erro ao buscar livros:", error));
     }, []);
     useEffect(() => {
-        fetch(`http://localhost:5000/livrosFavoritos?telefoneemail=${telefoneEmail}`)
+        fetch(`https://clubeleiteirasdad-1.onrender.com/livrosFavoritos?telefoneemail=${telefoneEmail}`)
             .then((res) => res.json())
             .then((data) => setLivrosFavoritos(data))
             .catch((error) => console.error("Erro ao buscar livros:", error));
