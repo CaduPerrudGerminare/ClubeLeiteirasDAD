@@ -5,10 +5,10 @@ Apesar da proposta inicial do projeto ter sido um sistema de mercado, após alin
 O foco do clube é a leitura de obras cobradas pelos principais vestibulares do Brasil (como Fuvest e Enem), e o sistema tem como objetivo facilitar o empréstimo de livros, a marcação de favoritos e a organização da leitura entre as participantes.
 
 
-## Membros do grupo 👩🏻‍🦱👨🏽👩🏻
-- Camilla Moreno de Almeida
-- Carlos Eduardo Perrud Sousa
-- Yasmin Barbosa Rodrigues Pinheiro
+## Membros do grupo 👩🏻👨🏽👩🏻‍🦱
+- Camilla Moreno de Almeida;
+- Carlos Eduardo Perrud Sousa;
+- Yasmin Barbosa Rodrigues Pinheiro.
 
 
 ## 🛠️ Tecnologias Utilizadas
