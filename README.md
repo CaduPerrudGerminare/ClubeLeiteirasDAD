@@ -18,7 +18,7 @@ O foco do clube é a leitura de obras cobradas pelos principais vestibulares do 
 - **Integração Web**: CORS configurado para integração com frontend React
 - **Outros**: Logging com `logging`, tratamento de exceções globais
 
-## 📖 Como rodar o projeto
+## 📖 Como rodar o projeto local
 - É indicado o uso do Visual Studio Code para rodar o projeto.
 - Rode o arquivo main.py
 - Abra um novo terminal e mantenha o projeto rodando, nesse novo terminal rode o comando "npm install".
