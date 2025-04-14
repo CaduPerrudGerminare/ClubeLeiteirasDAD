@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Configuração CORS
 CORS(app, 
      supports_credentials=True, 
-     origins=["http://localhost:3000"],
+     origins=["https://clubeleiteirasdad.onrender.com/"],
      expose_headers=["Content-Type"],
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])

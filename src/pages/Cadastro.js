@@ -122,7 +122,7 @@ const Cadastro = () => {
     };
   
     try {
-      const response = await fetch('http://localhost:5000/Cadastro', { 
+      const response = await fetch('https://clubeleiteirasdad.onrender.com//Cadastro', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
