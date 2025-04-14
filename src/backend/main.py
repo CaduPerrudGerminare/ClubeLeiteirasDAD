@@ -7,6 +7,7 @@ from datetime import date
 from werkzeug.security import check_password_hash
 from werkzeug.security import generate_password_hash, check_password_hash
 import logging
+import os
 
 app = Flask(__name__)
 
@@ -22,31 +23,7 @@ CORS(app,
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
-# Função para obter conexão com o banco de dados com tratamento de erros
-def get_db_connection():
-    try:
-        conn = psycopg2.connect(
-            host="pg-2a9d6c71-camillamoreno2022-90fd.k.aivencloud.com",
-            port="22109",
-            dbname="dbLeiteiras",  # Nome do banco que você forneceu
-            user="avnadmin",  # Usuário fornecido na URI
-            password="AVNS_9QFzHpcTpMVOKcXhtco",  # Senha (substitua por sua senha real)
-            sslmode="require"  # Requer SSL, conforme sua configuração
-        )
-        logger.info("Conexão com o banco de dados estabelecida com sucesso")
-        return conn
-    except psycopg2.OperationalError as e:
-        logger.error(f"Erro ao conectar ao banco: {e}")
-        raise
-    except Exception as e:
-        logger.error(f"Erro desconhecido ao conectar ao banco: {e}")
-        raise
-
-# Handler global de erros
-@app.errorhandler(Exception)
-def handle_exception(e):
-    logger.error(f"Erro não tratado: {str(e)}")
-    return jsonify({"error": "Erro interno no servidor"}), 500
+conn = psycopg2.connect(os.getenv("DATABASE_URL"))
 
 # ----------- LOGIN -----------
 @app.route('/login', methods=["POST"])

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flask-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.backend.main:app
+    envVars:
+      - key: DATABASE_URL
+        sync: false  # você vai adicionar isso manualmente depois no painel do Render
