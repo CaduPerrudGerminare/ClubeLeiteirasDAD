@@ -4,13 +4,14 @@ Apesar da proposta inicial do projeto ter sido um sistema de mercado, após alin
 
 O foco do clube é a leitura de obras cobradas pelos principais vestibulares do Brasil (como Fuvest e Enem), e o sistema tem como objetivo facilitar o empréstimo de livros, a marcação de favoritos e a organização da leitura entre as participantes.
 
+
 ## Membros do grupo 👩🏻‍🦱👨🏽👩🏻
 - Carlos Eduardo Perrud
 - Yasmin Barbosa
 - Camilla Moreno 
 
-## 🛠️ Tecnologias Utilizadas
 
+## 🛠️ Tecnologias Utilizadas
 - **Backend**: Python, Flask, JavaScript 
 - **Frontend**: React, HTML, CSS, JavaScript 
 - **Banco de Dados**: PostgreSQL (com conexão segura via SSL) (Banco hospedado no aiven)
@@ -18,12 +19,14 @@ O foco do clube é a leitura de obras cobradas pelos principais vestibulares do 
 - **Integração Web**: CORS configurado para integração com frontend React
 - **Outros**: Logging com `logging`, tratamento de exceções globais
 
+
 ## 📖 Como rodar o projeto local
 - É indicado o uso do Visual Studio Code para rodar o projeto.
 - Rode o arquivo main.py
 - Abra um novo terminal e mantenha o projeto rodando, nesse novo terminal rode o comando "npm install".
 - Em seguida, rode o comando "npm start".
 - Uma janela irá se abrir com o projeto! Agora basta aproveitar dos nossos serviços.
+
 
 ## 📱 Funcionalidades
 - Visualizar livros;
