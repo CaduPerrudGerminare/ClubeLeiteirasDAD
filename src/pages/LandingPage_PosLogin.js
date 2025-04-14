@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Book from '../components/Book';
 import BookCarrousel from '../components/BookCarrousel';
 import Header2 from '../components/Header2';
 import Slogan from '../components/Slogan';
@@ -23,6 +22,7 @@ const useStyles = makeStyles({
     gap: 80,
   },
   box1: {
+    position: "relative",
     zIndex: -1,
     display: "flex",
     alignItems: "center",
@@ -39,10 +39,10 @@ const useStyles = makeStyles({
     },
     "& h3": {
       zIndex: -1,
-      padding: "0 0.5%",
+      padding: "0 1%",
       position: "absolute",
-      top: "205.8%",
-      left: "27%",
+      top: "-15%",
+      left: "5%",
       color: rosaVermelhinho,
       backgroundColor: "white",
     },
@@ -61,6 +61,7 @@ const useStyles = makeStyles({
     fontWeight: "bold",
   },
   box2: {
+    position: "relative",
     zIndex: -1,
     display: "flex",
     alignItems: "center",
@@ -71,10 +72,10 @@ const useStyles = makeStyles({
     border: `3px solid ${rosaVermelhinho}`,
     "& h3": {
       zIndex: -1,
-      padding: "0 0.5%",
+      padding: "0 1%",
       position: "absolute",
-      bottom: "-161%",
-      right: "27%",
+      top: "-20%",
+      right: "5%",
       color: rosaVermelhinho,
       backgroundColor: "white",
   },
