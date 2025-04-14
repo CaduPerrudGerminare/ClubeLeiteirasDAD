@@ -39,9 +39,9 @@ O foco do clube é a leitura de obras cobradas pelos principais vestibulares do 
 
 
 ## Identidade Visual
-| Cores   | Nome             |
-|---------|------------------|
-| #AB3939 | Rosa Vermelhinho |
-| #EF7E6B | Rosa Blush       |
-| #FF9B8B | Rosa Pessêgo     |
-| #FAD9D1 | Rosa Clarinho    |
+| Cor | Nome |
+|-----|------|
+| ![#AB3939](https://singlecolorimage.com/get/ab3939/16x16) #AB3939 | Rosa Vermelhinho |
+| ![#EF7E6B](https://singlecolorimage.com/get/ef7e6b/16x16) #EF7E6B | Rosa Blush |
+| ![#FF9B8B](https://singlecolorimage.com/get/ff9b8b/16x16) #FF9B8B | Rosa Pessêgo |
+| ![#FAD9D1](https://singlecolorimage.com/get/fad9d1/16x16) #FAD9D1 | Rosa Clarinho |
