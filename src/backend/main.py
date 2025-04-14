@@ -598,8 +598,8 @@ def frase_do_dia():
     # Se seu banco só tem 365 frases, vamos garantir que não pegue 366 num ano bissexto
     if dia_do_ano > 365:
         dia_do_ano = 365
-    cursor.execute("SET search_path TO public")
-    cursor.execute("SELECT titulo, sinopse, frase FROM public.livros WHERE id = %s", (dia_do_ano,))
+    
+    cursor.execute("SELECT titulo, sinopse, frase FROM livros WHERE id = %s", (dia_do_ano,))
     row = cursor.fetchone()
 
     cursor.close()
