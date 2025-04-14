@@ -23,7 +23,10 @@ CORS(app,
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
-conn = psycopg2.connect(os.getenv("DATABASE_URL"))
+# Função para obter conexão com o banco de dados com tratamento de erros
+def get_db_connection():
+       conn = psycopg2.connect(os.getenv("DATABASE_URL"))
+       return conn
 
 # ----------- LOGIN -----------
 @app.route('/login', methods=["POST"])
