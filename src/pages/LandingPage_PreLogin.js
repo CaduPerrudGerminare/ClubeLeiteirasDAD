@@ -127,7 +127,7 @@ const useStyles = makeStyles({
       padding: "0 0.5%",
       position: "absolute",
       right: "27%",
-      bottom: "-113%",
+      bottom: "-204.8%",
       color: rosaVermelhinho,
       backgroundColor: "white",
     },
