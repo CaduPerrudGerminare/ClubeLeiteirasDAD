@@ -599,7 +599,7 @@ def frase_do_dia():
     if dia_do_ano > 365:
         dia_do_ano = 365
     
-    cursor.execute("SELECT titulo, sinopse, frase FROM livros WHERE id = %s", (dia_do_ano,))
+    cursor.execute("SELECT titulo, sinopse, frase FROM livros WHERE id = %s", (dia_do_ano + 1,))
     row = cursor.fetchone()
 
     cursor.close()
